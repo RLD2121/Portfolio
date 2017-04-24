@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<!-- saved from url=(0097)https://storage.googleapis.com/supplemental_media/udacityu/2730818600/bootstrap-prestructure.html -->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta https-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Ronald De Leon's Portfolio</title>
+        <script src="js/jquery-3.2.0.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Prociono" rel="stylesheet">
+        <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    </head>
+<body>
+    <div class="container">
+        <header class="row">
+            <div class="col-md-6" id="ulogo"><img class="img-responsive" src="./img/udacityLogo.png" alt="udacity_logo"></div>
+            <div class="col-md-6">
+                <h1 class="text-right text-uppercase">Ronald De Leon</h1>
+                <h3 class="text-right text-uppercase">Front-End Engineer</h3>
+            </div>    
+        </header>
+
+        <div class="row">
+            <div class="col-md-12">
+                <hr> 
+            </div>
+        </div>  
+
+        <div class="row hover">
+            <div class="col-xs-12">
+                <img class="img-responsive mainPic" src="/img/coding1392.png" alt="coding" data-toggle="modal" data-target="#aboutMe">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Featured Work</h2>
+            </div>
+        </div>
+        <div class="row hover" >
+            <div class="col-md-6 project-title">
+                <img class="img-responsive" src="img2/resume750.png" alt="resume" data-toggle="modal" data-target="#project1" id="w">
+                <h3>Interactive Resume</h3> 
+            </div>
+            <div class="col-md-6 project-title">
+                <img class="img-responsive" src="img2/gaming750.png" alt="arcade_game" data-toggle="modal" data-target="#project2">
+                <h3>Classic Arcade Game Clone</h3>
+            </div>
+            <div class="col-md-6 project-title">
+                <img class="img-responsive" src="img2/webOpt750.png" alt="website_optimization" data-toggle="modal" data-target="#project3">
+                <h3>Website Optimization</h3>
+            </div>
+            <div class="col-md-6 project-title">
+                <img class="img-responsive" src="img2/map750.png" alt="neighborhood_map" data-toggle="modal" data-target="#project4">
+                <h3>Neighborhood Map</h3>
+            </div>
+            <div class="col-md-6 project-title">
+                <img class="img-responsive" src="img2/unitTest750.png" alt="unit_testing" data-toggle="modal" data-target="#project5">
+                <h3>Feed Reader Testing</h3>
+            </div>
+            <div class="col-md-6 project-title">
+                <img class="img-responsive" src="img2/quote750.png" alt="random_quote" data-toggle="modal" data-target="#project6">
+                <h3>Random Quote Generator</h3>
+            </div>
+            <div class="col-md-6 project-title">
+                <img class="img-responsive" src="img2/wiki750.png" alt="wiki_app" data-toggle="modal" data-target="#project7">
+                <h3>Wiki Search App</h3>
+            </div>
+            <div class="col-md-6 project-title">
+                <img class="img-responsive" src="img2/weather750.png" alt="weather_app" data-toggle="modal" data-target="#project8">
+                <h3>Weather App</h3>
+            </div>
+        </div> 
+        <div class="row">
+            <div class="col-md-12">
+                <hr> 
+            </div>
+        </div> 
+        <footer class="row">
+                <div class="col-md-4">
+                     <a class="btn btn-default" href="https://www.linkedin.com/in/ronald-de-leon-24682626/" target="_blank"><i class="fa fa-linkedin-square fa-lg" id="linked-icon" aria-hidden="true"></i> Linkedin</a>
+                </div>
+                <div class="col-md-4">
+                     <a class="btn btn-default" href="https://github.com/RLD2121" target="_blank"><i class="fa fa-github fa-lg" id="github-icon" aria-hidden="true"></i> GitHub</a>
+                </div>
+                <div class="col-md-4">
+                     <a class="btn btn-default" href="https://www.freecodecamp.com/rld2121" target="_blank"><i class="fa fa-free-code-camp fa-lg" id="fcc-icon" aria-hidden="true"></i> FreeCodeCamp</a>
+                </div>
+         </footer>
+      </div>      
+
+<!-- Modal -->
+      
+<!--    About me section  -->
+    <div class="modal fade" id="aboutMe" tabindex="-1" role="dialog" aria-labelledby="about" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title" id="about">About Me</h2>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive self-pic" src="img/self.PNG" alt="self_pic">
+                    <h3>I am a Sr. Process Engineer <i>(BSc, Chemical Engineering) </i>looking to make a career switch to the exciting 
+                        world of web development.  With this portfolio, I am excited to showcase my projects in hopes of obtaining a junior developer role.</h3>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+      
+    <!--    Project 1  -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myResume" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="myResume">Technology and Concepts</h3>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li> JSON File</li>
+                        <li> Objects</li>
+                        <li> Functions</li>
+                        <li> Conditionals</li>
+                        <li> Control Structures</li>
+                        <li> HTML</li>
+                        <li> CSS</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <p><a href="https://github.com/" target="_blank">Link to project</a></p>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>  
+    <!--    Project 2  -->
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="arcade" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="arcade">Technology and Concepts</h3>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>Game Loop Engine</li>
+                        <li>Object-Oriented Javascript</li>
+                        <li>HTML5</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <p><a href="https://github.com/" target="_blank">Link to project</a></p>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <!--    Project 3  -->
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="webOpt" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="webOpt">Technology and Concepts</h3>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>Browser Rendering</li>
+                        <li>Website Performance</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <p><a href="http://github.com/" target="_blank">Link to project</a></p>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <!--    Project 4  -->
+    <div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="neighMap" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="neighMap">Technology and Concepts</h3>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>Javascript Design Patterns</li>
+                        <li>AJAX</li>
+                        <li>APIs</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <p><a href="https://github.com/" target="_blank">Link to project</a></p>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <!--    Project 5  -->
+    <div class="modal fade" id="project5" tabindex="-1" role="dialog" aria-labelledby="unitTest" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="unitTest">Technology and Concepts</h3>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>RSS Feeds</li>
+                        <li>Jaascript Testing</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <p><a href="https://github.com/" target="_blank">Link to project</a></p>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <!--    Project 6  -->
+    <div class="modal fade" id="project6" tabindex="-1" role="dialog" aria-labelledby="randQuote" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="randQuote">Technology and Concepts</h3>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li>Jquery</li>
+                        <li>JSON File</li>
+                        <li>APIs</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <p><a href="https://github.com/" target="_blank">Link to project</a></p>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <!--    Project 7  -->
+    <div class="modal fade" id="project7" tabindex="-1" role="dialog" aria-labelledby="wikiApp" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="wikiApp">Technology and Concepts</h3>
+                </div>
+                <div class="modal-body">
+                      <ul>
+                        <li>Jquery</li>
+                        <li>AJAX</li>
+                        <li>APIs</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <p><a href="https://github.com/" target="_blank">Link to project</a></p>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <!--    Project 8  -->
+    <div class="modal fade" id="project8" tabindex="-1" role="dialog" aria-labelledby="weatherApp" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="weatherApp">Technology and Concepts</h3>
+                </div>
+                <div class="modal-body">
+                      <ul>
+                        <li>Jquery</li>
+                        <li>AJAX</li>
+                        <li>APIs</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <p><a href="https://github.com/" target="_blank">Link to project</a></p>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>   
+</body></html>
